@@ -24,6 +24,7 @@ class DetailsScreen extends StatelessWidget {
         backgroundColor: product.color,
         elevation: 0,
         leading: IconButton(
+          key: const Key("back"),
           icon: SvgPicture.asset(
             'assets/icons/back.svg',
             colorFilter: const ColorFilter.mode(Colors.white, BlendMode.srcIn),

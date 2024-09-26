@@ -60,6 +60,7 @@ class _CartCounterState extends State<CartCounter> {
                 numOfItems++;
               });
             },
+            key: const Key("add"),
             child: const Icon(Icons.add),
           ),
         ),

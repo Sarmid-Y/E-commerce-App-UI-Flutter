@@ -42,6 +42,7 @@ class AddToCart extends StatelessWidget {
                 backgroundColor: product.color,
               ),
               child: Text(
+                key: const Key("buy"),
                 "Buy  Now".toUpperCase(),
                 style: const TextStyle(
                   fontWeight: FontWeight.bold,

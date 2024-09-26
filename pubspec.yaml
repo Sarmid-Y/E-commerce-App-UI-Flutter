@@ -31,6 +31,7 @@ dependencies:
 
 dev_dependencies:
   flutter_lints: ^4.0.0
+  flutter_riverpod: ^2.5.1
   flutter_test:
     sdk: flutter
   patrol: ^3.10.0
